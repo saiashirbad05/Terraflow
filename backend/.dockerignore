@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+Dockerfile
+.cloudbuild
+.git
+.gitignore
+README.md
+tests
+*.log

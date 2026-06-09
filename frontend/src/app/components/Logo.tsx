@@ -1,0 +1,39 @@
+import React from "react";
+
+export default function Logo({ className = "w-8 h-8" }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 100 100"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M50 15C50 15 25 35 25 55C25 68.8071 36.1929 80 50 80C63.8071 80 75 68.8071 75 55C75 35 50 15 50 15Z"
+        fill="#E2ECE9"
+      />
+      <path
+        d="M50 15C50 15 35 38 35 55C35 63.2843 41.7157 70 50 70C58.2843 70 65 63.2843 65 55C65 38 50 15 50 15Z"
+        fill="#3B5B4F"
+      />
+      <path
+        d="M50 25V65"
+        stroke="#FAF9F5"
+        strokeWidth="4"
+        strokeLinecap="round"
+      />
+      <path
+        d="M38 48C42 50 45 52 50 48"
+        stroke="#FAF9F5"
+        strokeWidth="3"
+        strokeLinecap="round"
+      />
+      <path
+        d="M62 55C58 57 55 59 50 55"
+        stroke="#FAF9F5"
+        strokeWidth="3"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
